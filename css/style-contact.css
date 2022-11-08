@@ -6,7 +6,7 @@ body {
 .contact {
   position: relative;
   width: 100%;
-  height: 800px;
+  height: 868px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,7 +14,7 @@ body {
 }
 
 .contact-form h2 {
-  font-size: 30px;
+  font-size: 40px;
   margin-bottom: 15px;
 }
 
