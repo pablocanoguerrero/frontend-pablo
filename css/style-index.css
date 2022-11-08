@@ -1,3 +1,8 @@
+body {
+  background: #222;
+  color: #fff;
+}
+
 .content {
   position: relative;
   width: 100%;
@@ -19,13 +24,13 @@ h3 {
 }
 
 h4 {
-  color: #fcfc;
+  color: rgba(195, 203, 255, 0.8);
   letter-spacing: 2px;
   font-size: 20px;
 }
 
 .newsbtn {
-  background-color: rgb(204, 3, 204);
+  background-color: rgb(38, 121, 255);
   color: #fff;
   text-decoration: none;
   border: 2px solid transparent;

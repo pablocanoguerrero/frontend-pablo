@@ -1,3 +1,8 @@
+body {
+  background: #222;
+  color: #fff;
+}
+
 .box {
   position: relative;
   width: 100%;
@@ -32,12 +37,13 @@
 .box input[type="submit"] {
   border: none;
   outline: none;
-  background: rgb(204, 3, 204);
+  background: rgb(38, 121, 255);
   padding: 8px 20px;
   border-radius: 10px;
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 1px;
+  color: #fff;
 }
 
 .box input[type="submit"] {
