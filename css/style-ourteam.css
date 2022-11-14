@@ -1,0 +1,80 @@
+body {
+  background: #222;
+  color: #fff;
+}
+
+.team {
+  position: relative;
+  width: 100%;
+  /* This is the space between the title and the menu */
+  height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.team-content {
+  width: 100%;
+  /* This is the size of the image */
+  max-width: 700px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.team-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.center h1 {
+  color: #fff;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.box {
+  padding: 17px;
+  background: #333;
+  border-radius: 15px;
+  transition: all 0.38s ease;
+}
+
+.box h3 {
+  font-size: 23px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.box h5 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #b7b4bb;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+.icons i {
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  margin: 0 8px;
+  transition: all 0.38s ease;
+}
+
+.icons i:hover {
+  transform: scale(1.2);
+}
+
+.box:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
