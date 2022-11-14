@@ -1,0 +1,144 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-size: 0.88rem;
+  background: var(--color-background);
+  user-select: none;
+  overflow-x: hidden;
+  color: var(--color-dark);
+}
+
+main h1 {
+  margin-top: 6.4rem;
+}
+
+.team-content {
+  width: 100%;
+  /* This is the size of the image */
+  max-width: 1500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+  align-items: left;
+  gap: 1.7rem;
+  text-align: center;
+  margin-top: 0.7rem;
+}
+
+.team-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.box {
+  padding: 18px;
+  background: var(--color-white);
+  border-radius: var(--card-border-radius);
+  transition: all 0.38s ease;
+  box-shadow: var(--box-shadow);
+  transition: all 300ms ease;
+}
+
+.box:hover {
+  box-shadow: none;
+}
+
+.box h3 {
+  font-size: 23px;
+  font-weight: 600;
+  color: var(--color-dark-variant);
+  margin-bottom: 1px;
+}
+
+.box h5 {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+
+.icons i {
+  display: inline-block;
+  color: var(--color-dark-variant);
+  font-size: 20px;
+  margin: 0 3px;
+  transition: all 300ms ease;
+}
+
+.icons i:hover {
+  transform: scale(1.2);
+}
+
+.box:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+/* LASTEST PAYMENTS */
+.right .recent-updates {
+  /* margin-top: 1rem; */
+  margin-top: 6rem;
+}
+
+.right .recent-updates h2 {
+  margin-bottom: 0.8rem;
+}
+
+.right .recent-updates .updates {
+  background: var(--color-white);
+  padding: var(--card-padding);
+  border-radius: var(--card-border-radius);
+  box-shadow: var(--box-shadow);
+  transition: all 300ms ease;
+}
+
+.right .recent-updates .updates:hover {
+  box-shadow: none;
+}
+
+.right .recent-updates .updates .update {
+  display: grid;
+  grid-template-columns: 2.6rem auto;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* FOOTER */
+footer {
+  color: var(--color-dark-variant);
+  position: relative;
+  font-size: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+footer p:nth-child(1) {
+  color: var(--color-dark-variant);
+  font-size: 30px;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+
+footer .main-footer a {
+  color: var(--color-dark-variant);
+}
+
+.end {
+  color: var(--color-dark-variant);
+  margin-top: 1rem;
+  bottom: 35px;
+  font-size: 14px;
+}
+
+/* MEDIA QUERIES */
