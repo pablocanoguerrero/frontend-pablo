@@ -33,10 +33,6 @@ body {
   transition: all 300ms ease;
 }
 
-/* .form-login:hover {
-  box-shadow: none;
-} */
-
 header {
   font-size: 28px;
   font-weight: 600;
@@ -212,14 +208,13 @@ a.span {
 footer {
   color: var(--color-dark-variant);
   position: absolute;
-  padding-top: 59rem;
   font-size: 1rem;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 3rem;
+  margin-top: 61.7rem;
 }
 
 footer p:nth-child(1) {
