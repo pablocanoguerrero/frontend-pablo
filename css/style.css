@@ -236,7 +236,7 @@ nav .profile-area .theme-btn span {
 
 nav .profile-area .theme-btn span.active {
   background: var(--color-primary);
-  color: white;
+  color: var(--color-white);
   border-radius: var(--border-radius-1);
 }
 

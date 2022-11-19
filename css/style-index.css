@@ -6,12 +6,112 @@ body {
   width: 100vw;
   height: 100vh;
   font-size: 0.88rem;
-  background: var(--color-background);
+  background: var(--color-white);
   user-select: none;
   overflow-x: hidden;
   color: var(--color-dark);
 }
 
+/* PRINCIPAL MAIN */
 .principal-main {
-  margin-top: 6.4rem;
+  width: 100%;
+  position: absolute;
+  /* margin-top: 20rem; */
+  top: 25%;
+  left: 25%;
+  transform: translate(-25%, -25%);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+h1 {
+  padding: 0 530px;
+}
+
+.heading {
+  color: var(--color-dark);
+  line-height: 54px;
+  font-size: 45px;
+  margin: 30px 0;
+  font-weight: normal;
+  display: block;
+  text-decoration: none;
+}
+
+.content .button {
+  background: var(--color-primary);
+  color: var(--color-white);
+  border-radius: 0;
+  border-style: solid;
+  border-width: 0;
+  cursor: pointer;
+  font-weight: normal;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.14286rem 0.28571rem 0.21429rem 0.28571rem;
+  border-radius: 4px;
+  border: none;
+  font-size: 0.92857rem;
+  padding: 0.42857rem 1.07143rem 0.57143rem;
+}
+
+.content .button:hover {
+  background: #ae8bff;
+  color: var(--color-white);
+}
+
+/* MEDIUM */
+.colums-medium {
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  padding: 0 300px;
+}
+
+.body-text {
+  padding: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 75ch;
+}
+
+span {
+  color: var(--color-primary);
+}
+
+/* FOOTER */
+footer {
+  color: var(--color-dark-variant);
+  position: absolute;
+  font-size: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 34rem;
+}
+
+footer p:nth-child(1) {
+  color: var(--color-dark-variant);
+  font-size: 30px;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+
+footer .main-footer a {
+  color: var(--color-dark-variant);
+}
+
+.end {
+  color: var(--color-dark-variant);
+  margin-top: 1rem;
+  bottom: 35px;
+  font-size: 14px;
 }
