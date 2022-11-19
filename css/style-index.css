@@ -74,6 +74,10 @@ h1 {
   padding: 0 300px;
 }
 
+.h-2 {
+  color: var(--color-dark);
+}
+
 .body-text {
   padding: 30px;
   overflow: hidden;
