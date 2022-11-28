@@ -12,70 +12,34 @@ body {
   color: var(--color-dark);
 }
 
-/* MAIN */
-.supporter {
-  margin-top: 8rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+/* PRINCIPAL MAIN */
+.principal-main {
+  width: 100%;
+  position: absolute;
+  /* margin-top: 20rem; */
+  top: 25%;
+  left: 25%;
+  transform: translate(-25%, -25%);
   text-align: center;
   font-size: 18px;
   font-weight: 200;
-  column-gap: 30px;
+}
+
+h1 {
   padding: 0 530px;
 }
 
-main .the-form-support h2 {
-  margin-bottom: 1.5rem;
+.heading {
+  color: var(--color-dark);
+  line-height: 54px;
+  font-size: 45px;
+  margin: 30px 0;
+  font-weight: normal;
+  display: block;
+  text-decoration: none;
 }
 
-main .the-form-support p {
-  margin-bottom: 1.5rem;
-}
-
-main .the-form-support form {
-  width: 100%;
-  height: 600px;
-  text-align: center;
-}
-
-form .input-field,
-.the-field {
-  position: relative;
-  height: 66px;
-  width: 100%;
-  text-align: left;
-  margin-bottom: 3.5rem;
-  font-weight: 600;
-}
-
-form .input-field:focus {
-  border-bottom-width: 2px;
-}
-
-form .input-field input,
-textarea {
-  height: 87%;
-  width: 100%;
-  border: none;
-  outline: none;
-  font-size: 16px;
-  font-weight: 400;
-  border-radius: 6px;
-  padding: 15px;
-  background: var(--color-background);
-}
-
-form textarea {
-  resize: none;
-  height: 200px;
-  padding: 15px;
-  padding-top: 15px;
-}
-
-form button {
-  transition: all 300ms ease;
+.content .button {
   background: var(--color-primary);
   color: var(--color-white);
   border-radius: 0;
@@ -93,13 +57,36 @@ form button {
   border: none;
   font-size: 0.92857rem;
   padding: 0.42857rem 1.07143rem 0.57143rem;
-  margin-top: 11rem;
-  width: auto;
 }
 
-form button:hover {
+.content .button:hover {
   background: #ae8bff;
   color: var(--color-white);
+}
+
+/* MEDIUM */
+.colums-medium {
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  padding: 0 300px;
+}
+
+.h-2 {
+  color: var(--color-dark);
+}
+
+.body-text {
+  padding: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 75ch;
+}
+
+span {
+  color: var(--color-primary);
 }
 
 /* FOOTER */
@@ -112,7 +99,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 107rem;
+  margin-top: 34rem;
 }
 
 footer p:nth-child(1) {
@@ -131,5 +118,4 @@ footer .main-footer a {
   margin-top: 1rem;
   bottom: 35px;
   font-size: 14px;
-  margin-bottom: 2rem;
 }
