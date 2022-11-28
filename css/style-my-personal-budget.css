@@ -6,7 +6,7 @@ body {
   width: 100vw;
   height: 100vh;
   font-size: 0.88rem;
-  background: var(--color-background);
+  background: var(--color-white);
   user-select: none;
   overflow-x: hidden;
   color: var(--color-dark);
@@ -15,7 +15,7 @@ body {
 /* MAIN */
 main {
   /* margin-top: 1.4rem; */
-  margin-top: 6.4rem;
+  margin-top: 6.9rem;
 }
 
 main .date {
@@ -38,7 +38,7 @@ main .insights {
 }
 
 main .insights > div {
-  background: var(--color-white);
+  background: var(--color-background);
   padding: var(--card-padding);
   border-radius: var(--card-border-radius);
   margin-top: 1rem;
@@ -50,7 +50,7 @@ main .insights > div:hover {
   box-shadow: none;
 }
 
-main .insights > div span {
+main .insights > div i {
   background: var(--color-primary);
   padding: 0.5rem;
   border-radius: 50%;
@@ -58,11 +58,11 @@ main .insights > div span {
   font-size: 2rem;
 }
 
-main .insights > div.expenses span {
+main .insights > div.expenses i {
   background: var(--color-danger);
 }
 
-main .insights > div.income span {
+main .insights > div.income i {
   background: var(--color-success);
 }
 
@@ -140,7 +140,7 @@ main .recent-orders h2 {
 }
 
 main .recent-orders table {
-  background: var(--color-white);
+  background: var(--color-background);
   width: 100%;
   border-radius: var(--card-border-radius);
   padding: var(--card-padding);
@@ -173,7 +173,7 @@ main a {
 /* LASTEST PAYMENTS */
 .right .recent-updates {
   /* margin-top: 1rem; */
-  margin-top: 6rem;
+  margin-top: 7rem;
 }
 
 .right .recent-updates h2 {
@@ -181,7 +181,7 @@ main a {
 }
 
 .right .recent-updates .updates {
-  background: var(--color-white);
+  background: var(--color-background);
   padding: var(--card-padding);
   border-radius: var(--card-border-radius);
   box-shadow: var(--box-shadow);
@@ -200,16 +200,15 @@ main a {
 }
 
 /* RSUME OF BUDGETS */
-.right .sales-analytics {
+.right .resume-budgets {
   margin-top: 2rem;
 }
 
-.right .sales-analytics h2 {
+.right .resume-budgets h2 {
   margin-bottom: 0.8rem;
 }
 
-.right .sales-analytics .item {
-  background: var(--color-white);
+.right .resume-budgets .item {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -219,26 +218,27 @@ main a {
   box-shadow: var(--box-shadow);
   transition: all 300ms ease;
   cursor: pointer;
+  background: var(--color-background);
 }
 
-.right .sales-analytics .item.active {
+.right .resume-budgets .item.active {
   background: var(--color-light);
   color: var(--color-primary);
   margin-left: 0;
   box-shadow: none;
 }
 
-.right .sales-analytics .item.active:before {
+.right .resume-budgets .item.active:before {
   width: 6px;
   height: 100%;
   background: var(--color-primary);
 }
 
-.right .sales-analytics .item:hover {
+.right .resume-budgets .item:hover {
   box-shadow: none;
 }
 
-.right .sales-analytics .item .right {
+.right .resume-budgets .item .right {
   display: flex;
   justify-content: space-between;
   align-items: start;
@@ -246,7 +246,8 @@ main a {
   width: 100%;
 }
 
-.right .sales-analytics .item .icon {
+.right .resume-budgets .item .icon {
+  font-size: 1.6rem;
   padding: 0.4rem;
   color: var(--color-white);
   border-radius: 50%;
@@ -254,15 +255,15 @@ main a {
   display: flex;
 }
 
-.right .sales-analytics .item.offline .icon {
+.right .resume-budgets .item.offline .icon {
   background: var(--color-danger);
 }
 
-.right .sales-analytics .item.coustomers .icon {
+.right .resume-budgets .item.coustomers .icon {
   background: var(--color-success);
 }
 
-.right .sales-analytics .add-product {
+.right .resume-budgets .add-product {
   background-color: transparent;
   border: 2px dashed var(--color-primary);
   color: var(--color-primary);
@@ -271,13 +272,13 @@ main a {
   justify-content: center;
 }
 
-.right .sales-analytics .add-product div {
+.right .resume-budgets .add-product div {
   display: flex;
   align-items: center;
   gap: 0.6rem;
 }
 
-.right .sales-analytics .add-product div h3 {
+.right .resume-budgets .add-product div h3 {
   font-weight: 600;
 }
 

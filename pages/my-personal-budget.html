@@ -6,20 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
-
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
-    />
-
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    />
-
     <link rel="stylesheet" href="../css/style-my-personal-budget.css" />
     <link rel="stylesheet" href="../css/style.css" />
 
@@ -36,7 +25,7 @@
         </div>
 
         <div class="search-bar">
-          <span class="material-symbols-outlined">search</span>
+          <i class="bx bx-search search-size"></i>
           <input type="search" placeholder="Search" />
         </div>
 
@@ -48,8 +37,7 @@
           </div>
 
           <div class="theme-btn">
-            <span class="material-symbols-outlined active">light_mode</span>
-            <span class="material-symbols-outlined">dark_mode</span>
+            <i class="bx bx-moon"></i>
           </div>
 
           <div class="profile">
@@ -57,35 +45,35 @@
               <img src="../img/pablo.jpeg" />
             </div>
             <h5>Hey, Pablo</h5>
-            <span class="material-symbols-outlined">expand_more</span>
+            <i class="bx bx-chevron-down down"></i>
           </div>
 
           <button id="menu-btn">
-            <span class="material-symbols-outlined">menu</span>
+            <i class="bx bx-menu"></i>
           </button>
         </div>
       </div>
     </nav>
 
-    <!-- ASIDE -->
+    <!-- SIDEBAR -->
     <div class="container">
       <aside>
         <div class="sidebar">
           <a href="./my-personal-budget.html" class="active">
-            <span class="material-symbols-outlined">grid_view</span>
+            <i class="bx bxs-dashboard"></i>
             <h3>Dashboard</h3>
           </a>
 
           <a href="#">
-            <span class="material-symbols-outlined">forum</span>
+            <i class="bx bxs-paper-plane"></i>
             <h3>Messages</h3>
-            <span class="notification active"></span>
+            <i class="notification active"></i>
           </a>
 
           <a href="#">
-            <span class="material-symbols-outlined">receipt_long</span>
+            <i class="bx bxs-receipt"></i>
             <h3>Look Ahead</h3>
-            <span class="notification active"></span>
+            <i class="notification active"></i>
           </a>
 
           <!-- <a href="#">
@@ -95,13 +83,13 @@
           </a> -->
 
           <a href="#">
-            <span class="material-symbols-outlined">settings</span>
+            <i class="bx bxs-cog"></i>
             <h3>Settings</h3>
             <span class="notification"></span>
           </a>
 
           <a href="../index.html">
-            <span class="material-symbols-outlined">logout</span>
+            <i class="bx bx-log-out"></i>
             <h3>Log Out</h3>
           </a>
         </div>
@@ -113,7 +101,7 @@
         <h1>Dashboard</h1>
         <div class="insights">
           <div class="sales">
-            <span class="material-symbols-outlined">analytics</span>
+            <i class="bx bx-scatter-chart"></i>
             <div class="middle">
               <div class="left">
                 <h3>Total Income</h3>
@@ -129,12 +117,12 @@
                 </div>
               </div>
             </div>
-            <small class="text-muted">Last 24 Hours</small>
+            <small class="text-muted">Last month</small>
           </div>
           <!-- End Income -->
 
           <div class="income">
-            <span class="material-symbols-outlined">stacked_line_chart</span>
+            <i class="bx bx-line-chart"></i>
             <div class="middle">
               <div class="left">
                 <h3>Total Winning</h3>
@@ -150,12 +138,12 @@
                 </div>
               </div>
             </div>
-            <small class="text-muted">Last 24 Hours</small>
+            <small class="text-muted">Last month</small>
           </div>
           <!-- End Winning -->
 
           <div class="expenses">
-            <span class="material-symbols-outlined">bar_chart</span>
+            <i class="bx bx-line-chart-down"></i>
             <div class="middle">
               <div class="left">
                 <h3>Total Losing</h3>
@@ -171,7 +159,7 @@
                 </div>
               </div>
             </div>
-            <small class="text-muted">Last 24 Hours</small>
+            <small class="text-muted">Last month</small>
           </div>
           <!-- En Losing -->
         </div>
@@ -702,12 +690,12 @@
         </div>
 
         <!-- RESUME OF BUDGETS -->
-        <div class="sales-analytics">
+        <div class="resume-budgets">
           <h2>Resume of Budgets</h2>
 
           <div class="item active">
             <div class="icon">
-              <span class="material-symbols-outlined">house</span>
+              <i class="bx bxs-home"></i>
             </div>
             <div class="right">
               <div class="info">
@@ -720,7 +708,7 @@
 
           <div class="item">
             <div class="icon">
-              <span class="material-symbols-outlined">healing</span>
+              <i class="bx bxs-home-heart"></i>
             </div>
             <div class="right">
               <div class="info">
@@ -733,7 +721,7 @@
 
           <div class="item">
             <div class="icon">
-              <span class="material-symbols-outlined">directions_car</span>
+              <i class="bx bxs-car"></i>
             </div>
             <div class="right">
               <div class="info">
@@ -746,7 +734,7 @@
 
           <div class="item">
             <div class="icon">
-              <span class="material-symbols-outlined">restaurant</span>
+              <i class="bx bxs-coffee-alt"></i>
             </div>
             <div class="right">
               <div class="info">
@@ -759,7 +747,7 @@
 
           <div class="item">
             <div class="icon">
-              <span class="material-symbols-outlined">person</span>
+              <i class="bx bxs-smile"></i>
             </div>
             <div class="right">
               <div class="info">
@@ -772,7 +760,7 @@
 
           <div class="item">
             <div class="icon">
-              <span class="material-symbols-outlined">account_balance</span>
+              <i class="bx bxs-bank"></i>
             </div>
             <div class="right">
               <div class="info">
@@ -785,7 +773,7 @@
 
           <div class="item">
             <div class="icon">
-              <span class="material-symbols-outlined">movie</span>
+              <i class="bx bxs-film"></i>
             </div>
             <div class="right">
               <div class="info">
@@ -798,7 +786,7 @@
 
           <div class="item">
             <div class="icon">
-              <span class="material-symbols-outlined">volunteer_activism</span>
+              <i class="bx bxs-church"></i>
             </div>
             <div class="right">
               <div class="info">

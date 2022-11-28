@@ -111,7 +111,7 @@ b {
   color: var(--color-warning);
 }
 
-/* NAVEGATION */
+/* MENU */
 nav {
   width: 100%;
   height: 80px;
@@ -145,6 +145,10 @@ nav .the-container {
   position: relative;
   width: 96%;
   margin: 0 auto;
+}
+
+nav .search-size {
+  font-size: 20px;
 }
 
 nav .search-bar {
@@ -216,25 +220,24 @@ nav .profile-area,
 nav .profile-area .theme-btn {
   background: var(--color-light);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 2rem;
-  width: 5rem;
-  cursor: pointer;
+  width: 2rem;
   border-radius: var(--border-radius-1);
   cursor: pointer;
 }
 
-nav .profile-area .theme-btn span {
+nav .profile-area .theme-btn i {
   font-size: 1.2rem;
-  width: 50%;
-  height: 100%;
+  width: 2rem;
+  height: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-nav .profile-area .theme-btn span.active {
+nav .profile-area .theme-btn i.active {
   background: var(--color-primary);
   color: var(--color-white);
   border-radius: var(--border-radius-1);
@@ -273,6 +276,7 @@ aside .close {
 
 /* SIDEBAR */
 aside .sidebar {
+  background: var(--color-white);
   display: flex;
   flex-direction: column;
   height: 86vh;
@@ -300,7 +304,7 @@ aside .sidebar a {
   cursor: pointer;
 }
 
-aside .sidebar a span {
+aside .sidebar a i {
   font-size: 1.6rem;
   transition: all 300ms ease;
 }
@@ -325,7 +329,7 @@ aside .sidebar a.active:before {
   background: var(--color-primary);
 }
 
-aside .sidebar a.active span {
+aside .sidebar a.active i {
   color: var(--color-primary);
   margin-left: calc(1rem - 3px);
 }
@@ -334,7 +338,7 @@ aside .sidebar a:hover {
   color: var(--color-primary);
 }
 
-aside .sidebar a:hover span {
+aside .sidebar a:hover i {
   margin-left: 1rem;
 }
 

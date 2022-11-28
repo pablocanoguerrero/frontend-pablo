@@ -95,6 +95,7 @@ form button {
   padding: 0.42857rem 1.07143rem 0.57143rem;
   margin-top: 11rem;
   width: auto;
+  margin-bottom: 3rem;
 }
 
 form button:hover {
@@ -103,7 +104,7 @@ form button:hover {
 }
 
 /* FOOTER */
-footer {
+/* footer {
   color: var(--color-dark-variant);
   position: absolute;
   font-size: 1rem;
@@ -131,5 +132,5 @@ footer .main-footer a {
   margin-top: 1rem;
   bottom: 35px;
   font-size: 14px;
-  margin-bottom: 2rem;
-}
+  margin-bottom: 2.8rem;
+} */

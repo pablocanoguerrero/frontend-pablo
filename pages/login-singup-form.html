@@ -6,20 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
-
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
-    />
-
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    />
-
     <link rel="stylesheet" href="../css/style-login-singup-form.css" />
     <link rel="stylesheet" href="../css/style.css" />
 
@@ -43,8 +32,7 @@
           </div>
 
           <div class="theme-btn">
-            <span class="material-symbols-outlined active">light_mode</span>
-            <span class="material-symbols-outlined">dark_mode</span>
+            <i class="bx bx-moon"></i>
           </div>
 
           <button id="menu-btn">
@@ -55,8 +43,8 @@
     </nav>
 
     <!-- LOGIN -->
-    <div class="the-form">
-      <div class="form-login">
+    <section class="the-form forms">
+      <div class="form login">
         <div class="form-content">
           <header>Log<span class="primary"> In</span></header>
 
@@ -72,7 +60,7 @@
                 class="password"
                 required
               />
-              <span class="material-symbols-outlined">visibility_off</span>
+              <i class="bx bx-hide eye-icon"></i>
             </div>
 
             <div class="form-link">
@@ -85,7 +73,7 @@
 
             <div class="form-link">
               <span>Already have an account?</span>
-              <a href="#" class="forgot-pass">Sing Up?</a>
+              <a href="#" class="link signup-link">Sign Up?</a>
             </div>
           </form>
         </div>
@@ -105,10 +93,10 @@
         </div>
       </div>
 
-      <!-- SINGUP -->
-      <div class="form-singup">
+      <!-- SIGNUP -->
+      <div class="form signup">
         <div class="form-content">
-          <header>Sing<span class="primary"> Up</span></header>
+          <header>Sign<span class="primary"> Up</span></header>
 
           <form action="#">
             <div class="input-field">
@@ -135,16 +123,16 @@
                 class="password"
                 required
               />
-              <span class="material-symbols-outlined">visibility_off</span>
+              <i class="bx bx-hide eye-icon"></i>
             </div>
 
             <div class="input-field">
-              <button>Sing Up</button>
+              <button>Sign Up</button>
             </div>
 
             <div class="form-link">
               <span>Already have an account?</span>
-              <a href="#" class="forgot-pass">Log In</a>
+              <a href="#" class="link login-link">Log In</a>
             </div>
           </form>
         </div>
@@ -164,7 +152,7 @@
         </div>
       </div>
       <!-- FOOTER -->
-      <footer>
+      <!-- <footer>
         <div class="main-footer">
           <a href="#" class="link-footer">Conditions of Service -</a>
           <a href="#" class="link-footer">Privacy Policy -</a>
@@ -176,9 +164,10 @@
         </div>
 
         <p class="end">Copyright &copy;2022. All rights reserved.</p>
-      </footer>
-    </div>
+      </footer> -->
+    </section>
 
-    <script></script>
+    <!-- JAVASCRIPT -->
+    <script src="../javascript/script-login-singup-form.js"></script>
   </body>
 </html>
